@@ -26,7 +26,7 @@ The only parts of the server you should need to mess with for your game is the s
 - `rooms/schema/MyRoomState.ts` This holds functions and data structures to be used for your server's logic.
 
 ### Client
-All of the game and message logic is inside of `PlayState.hx`, most functions should be somewhat self explanatory and there are comments to help guide you. The `schema/` folder holds data structures very similar to the ones in the server's `MyRoomState.ts`, these are mostly used in the Client object's functions for reference.
+All of the game and message logic is inside of `PlayState.hx`, most functions should be somewhat self explanatory and there are comments to help guide you. The `schema/` folder holds data structures very similar to the ones in the server's `MyRoomState.ts`, these are mostly used in the Client instance's functions for reference.
 
 ## Running the Server
 
@@ -37,7 +37,7 @@ First run `npm i` to install the server's dependencies (you should only need to 
 Then run `npm start` to run the server, once you see `Listening on ws://localhost:PORT` it should be up and ready to be connected to by clients.
 
 ### Online
-For smaller scale projects you can use [Heroku](https://www.heroku.com/) which is free and what I'll be explaining here, but there are other options that Colyseus recommends listed on [this page](https://docs.colyseus.io/colyseus/deployment/).
+For smaller scale projects you can use [Heroku](https://www.heroku.com/) which is free and is what I'll be explaining here, but there are other options that Colyseus recommends listed on [this page](https://docs.colyseus.io/colyseus/deployment/).
 
 In Heroku, make an account, and create a new app (which can be named whatever you like). 
 
