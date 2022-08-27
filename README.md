@@ -41,16 +41,21 @@ For smaller scale projects you can use [Heroku](https://www.heroku.com/) which i
 In Heroku, make an account, and create a new app (which can be named whatever you like). 
 
 Once you've done that, head to the app's dashboard and go to the `Settings` tab and under `Buildpacks` choose `Add buildpack` and select `nodejs` then `Save changes`
+
 ![Selecting the Nodejs buildpack](https://i.imgur.com/baitqYA.png)
 
 Then, move to the the `Deploy` tab, here you can choose to use GitHub and connect your account and select your server repository.
+
 ![Choosing a deployment method](https://i.imgur.com/ZqafaCM.png)
+
 Once you do that you can choose to use automatic deploys, which will essentially refresh you app every time you commit a change to the server's repo which is useful for testing.
 
 From here, the server should start building itself from the repository, but you can choose to manually deploy it at the bottom of the page as well. To view the build progress you can check the most recent build log from the `Activity` tab. You can also view the active console of the server overall from the logs page.
+
 ![Viewing the logs page](https://i.imgur.com/qFusO6d.png)
 
 Make sure to change the endpoint argument for the `Client` constructor in your client's `PlayState`
+
 ![enter image description here](https://i.imgur.com/QzTYb3r.png)
 
 ## Building the Game
