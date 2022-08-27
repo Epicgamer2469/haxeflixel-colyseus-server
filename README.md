@@ -7,6 +7,7 @@ I'm still fairly new to this so my explanations aren't very in-depth and some mi
 This is the server side to [@EpicGamer2469/haxeflixel-colyseus-client](https://github.com/Epicgamer2469/haxeflixel-colyseus-client)
 ### Other Resources
 [Colyseus Documentation](http://docs.colyseus.io/)
+
 [Blank Colyseus App](https://github.com/colyseus/create-colyseus-app)
 
 **Other Projects**
