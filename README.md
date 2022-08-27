@@ -15,7 +15,7 @@ This is the server side to [@EpicGamer2469/haxeflixel-colyseus-client](https://g
  - [Bass Master Online](https://github.com/AustinEast/bass-master-online)
 
 ## How do I get started?
-This project uses [Haxe/HaxeFlixel](https://haxeflixel.com/documentation/getting-started/) for the client side, and [Node](https://nodejs.org/en/) for the server side so you should install both.
+This project uses [Haxe/HaxeFlixel](https://haxeflixel.com/documentation/getting-started/) for the client side, and [Node](https://nodejs.org/en/) for the server side so you should install both (also make sure to install the `colyseus` haxelib).
 
 I would recommend using the repository template here so there's less trouble setting one up if you plan to use Heroku to deploy online in the future, as you can just plug it in and it will be able to update straight from the repo, you can do whatever you want for the client side though.
 
