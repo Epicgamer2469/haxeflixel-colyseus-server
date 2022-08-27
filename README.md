@@ -9,7 +9,7 @@ This is the server side to [@EpicGamer2469/haxeflixel-colyseus-client](https://g
 [Colyseus Documentation](http://docs.colyseus.io/)
 [Blank Colyseus App](https://github.com/colyseus/create-colyseus-app)
 
-**Previous Projects**
+**Other Projects**
  - [Tankmas](https://github.com/oscarcederberg/tankmas2021-server) 
  - [Bass Master Online](https://github.com/AustinEast/bass-master-online)
 
